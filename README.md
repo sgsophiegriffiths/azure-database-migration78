@@ -20,3 +20,13 @@ Upload the previously created database backup file to the Blob Storage container
 Provisioned a new Windows VM that mirrors the development setup
 restore the database backup onto this new environment
 Created management task that automates regular backups weekly of your development database
+
+Milestone 5
+Deliberately remove critical data from your production database to replicate a scenario where data integrity is compromised. 
+
+DELETE TOP (100)
+FROM Person.EmailAddress;
+
+Use Azure SQL Database Backup to restore the production database to a point just before the simulated data loss occurred.
+Examine the restored data through a new connection in Azure Data Studio to the restored database.
+
