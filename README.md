@@ -27,16 +27,16 @@ SELECT *
 FROM Person.EmailAddress;
 ```
 ![Captureoriginal](https://github.com/sgsophiegriffiths/azure-database-migration78/assets/146441873/4173c7d3-c671-4ec4-8caa-eb839f356004)
-There are 19972 rows in total.
+There are 19972 rows in total. <br />
 Deliberately remove critical data from your production database to replicate a scenario where data integrity is compromised. 
 ```
 DELETE TOP (100)
 FROM Person.EmailAddress;
 ```
 ![Capture](https://github.com/sgsophiegriffiths/azure-database-migration78/assets/146441873/270d7f07-4caa-42b8-b8ef-c3edc916a44c)
-19872 rows remain.
-Use Azure SQL Database Backup to restore the production database to a point just before the simulated data loss occurred.
-Examine the restored data through a new connection in Azure Data Studio to the restored database.
-The 100 rows have been restored and there are 19972 rows.
+19872 rows remain. <br />
+Use Azure SQL Database Backup to restore the production database to a point just before the simulated data loss occurred. <br />
+Examine the restored data through a new connection in Azure Data Studio to the restored database. <br />
+The 100 rows have been restored and there are 19972 rows. <br />
 ![Capturefinal](https://github.com/sgsophiegriffiths/azure-database-migration78/assets/146441873/c8e3a700-dec6-48ff-ba73-34d0bdb59f05)
 
