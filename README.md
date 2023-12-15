@@ -89,5 +89,6 @@ You should get an error indicating the user doesn't have access to modify the da
 
 ## DB UML
 
-[Azure Project Diagram.pdf](https://github.com/sgsophiegriffiths/azure-database-migration78/files/13686731/Azure.Project.Diagram.pdf)
+![Azure Project Diagram](https://github.com/sgsophiegriffiths/azure-database-migration78/assets/146441873/a3c8058e-d3e0-4974-af81-796fdedb9595)
+
 
